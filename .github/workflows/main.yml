@@ -13,6 +13,6 @@ jobs:
       # and run all Cypress tests
       - name: RUN
         run: |
-          yarn cy:run:parallel
-          yarn cy:run_v2:parallel
+          npx cy:run:parallel
+          npx cy:run_v2:parallel
 
